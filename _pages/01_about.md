@@ -1,0 +1,34 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
+
+# Leonardo Assis Morais
+
+### Physicist
+
+
+[<img alt="Linkedin Link" width="40px" src="../images/iconmonstr-linkedin-3.svg" />](https://www.linkedin.com/in/leo-assis/) [<img alt="GitHub Link" width="40px" src="../images/iconmonstr-github-3.svg" />](https://www.github.com/leo-am) [<img alt="Google Scholar Link" width="40px" src="../images/icons8-google-scholar.svg" />](https://scholar.google.com.au/citations?user=sQk70PoAAAAJ&hl=en)
+
+
+### About me
+
+<img alt="Linkedin Link" width="240px" src="../images/about_me.jpg" />
+
+> My name is Leonardo Assis Morais, and I am a physicist, passionate about quantum physics. I've worked with simulations of quantum systems, generation and detection of single photons, instrumentation for quantum optical labs, and open quantum systems.  
+
+### Education
+
+The University of Queensland / PhD Student
+2018 - Present (Brisbane, Australia)
+
+Universidade Federal de Minas Gerais (UFMG) / Masters' Student
+2015 - 2017 (Belo Horizonte, Brazil)
+
+### Research Interests
+
+- Quantum Measurement Theory 
+- Open Quantum Systems
+- Single-Photon Detectors
+- Simulations of Quantum Systems 

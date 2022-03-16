@@ -1,0 +1,15 @@
+# Site Settings
+title: Leonardo Assis Morais
+email: leoassisfisica at gmail.com
+description: Leonardo Assis Morais' academic website.
+baseurl: ""
+url: "http://localhost:4000"
+twitter_username: lew_morias
+github_username:  Leo-am
+
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
