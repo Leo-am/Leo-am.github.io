@@ -17,4 +17,4 @@ photon-number in real-time. arXiv preprint arXiv:2012.10158. (2020)](https://arx
 ## Conferences
 
 1. [Morais L.A., de Almeida M.P., Gillett G., White A.G. Revealing the number of single photons in real time. In Frontiers in
-Optics (2019) (pp. JTu4A-42). Optical Society of America.](https://opg.optica.org/abstract.cfm?uri=FiO-2019-JTu4A.42)
+Optics (2019) (pp. JTu4A-42). Optical Society of Americca.](https://opg.optica.org/abstract.cfm?uri=FiO-2019-JTu4A.42)

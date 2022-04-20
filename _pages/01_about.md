@@ -18,13 +18,7 @@ permalink: /about/
 
 > My name is Leonardo Assis Morais, and I am a physicist, passionate about quantum physics. I've worked with simulations of quantum systems, generation and detection of single photons, instrumentation for quantum optical labs, and open quantum systems.  
 
-### Education
 
-The University of Queensland / PhD Student
-2018 - Present (Brisbane, Australia)
-
-Universidade Federal de Minas Gerais (UFMG) / Masters' Student
-2015 - 2017 (Belo Horizonte, Brazil)
 
 ### Research Interests
 
