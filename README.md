@@ -1,1 +1,2 @@
-Personal webpage for Leonardo Assis Morais. Inspired in the Jekyll tutorial by Tania Rascia in https://www.taniarascia.com/make-a-static-website-with-jekyll
+Personal webpage for Leonardo Assis Morais. <br>
+Inspired in the [Jekyll tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll) by Tania Rascia.
