@@ -6,13 +6,16 @@ permalink: /publications/
 
 ## Published
 
-1. Loreto R.P., Morais L.A., de Araujo C.I., Moura-Melo W.A., Pereira A.R., Silva R.C., Nascimento F.S., and Mól L.A. 
+1. Morais L.A., Weinhold T., de Almeida M.P., Lita A., Gerrits T., Nam S.W., White A.G., and Gillett G. 
+[Precisely determining photon-number in real-time](https://quantum-journal.org/papers/q-2024-05-23-1355/), (2023).
+
+2. Loreto R.P., Morais L.A., de Araujo C.I., Moura-Melo W.A., Pereira A.R., Silva R.C., Nascimento F.S., and Mól L.A. 
 [Emergence and mobility of monopoles in a unidirectional arrangement of magnetic nanoislands,](https://iopscience.iop.org/article/10.1088/0957-4484/26/29/295303/meta)
 _Nanotechnology_, __26__, 295303 (2015)
 
 ## Pre-prints
-1. Morais L.A., Weinhold T., de Almeida M.P., Lita A., Gerrits T., Nam S.W., White A.G., and Gillett G. 
-[Precisely determining photon-number in real-time](https://arxiv.org/abs/2012.10158), arXiv:2012.10158 (2020).
+1. Zeppetzauer S., Morais L.A., He X., Milburn G., and Fedorov A.
+[Using coherent feedback for a periodic clock](https://arxiv.org/abs/2410.22926), arXiv:2410.22926 (2024).
 
 
 ## Conferences
