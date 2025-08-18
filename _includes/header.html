@@ -1,46 +1,42 @@
-<aside>
-	<div class="container">
-		<nav>
-			<ul>
-				{% for page in site.pages %}
-  					{% if page.title and page.hidden != true %}
-    				<li><a href="{{ page.url }}">{{ page.title }}</a></li>
-  					{% endif %}
-				{% endfor %}
-				<li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-			</ul>
-			</li>
-			</ul>
+<nav>
+  <ul class="nav-bar">
+    {% for page in site.pages %}
+      {% if page.title and page.hidden != true %}
+        <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+    <li><a href="{{ "/blog" | relative_url }}">Blog</a></li>
 
-		
-			<ul class="social-icons">
-				<li>
-					<a href="{{ site.social.github }}" target="_blank">
-					<img src="{{ '/images/icons/github.svg' | relative_url }}" alt="GitHub" width="24">
-					</a>
-				</li>
-				<li>
-					<a href="{{ site.social.scholar }}" target="_blank">
-					<img src="{{ '/images/icons/scholar.svg' | relative_url }}" alt="Google Scholar" width="24">
-					</a>
-				</li>
-				<li>
-					<a href="{{ site.social.orcid }}" target="_blank">
-					<img src="{{ '/images/icons/orcid.png' | relative_url }}" alt="ORCID" width="24">
-					</a>
-				</li>
-				<li>
-					<a href="{{ site.social.lattes }}" target="_blank">
-					<img src="{{ '/images/icons/lattes.png' | relative_url }}" alt="Lattes" width="24">
-					</a>
-				</li>
-			</ul>
+    {% if site.social.github %}
+      <li>
+        <a href="{{ site.social.github }}" target="_blank">
+          <img src="{{ '/images/icons/github.svg' | relative_url }}" alt="GitHub" width="24">
+        </a>
+      </li>
+    {% endif %}
 
-		</nav>
-	</div>
-</aside>
+    {% if site.social.scholar %}
+      <li>
+        <a href="{{ site.social.scholar }}" target="_blank">
+          <img src="{{ '/images/icons/scholar.svg' | relative_url }}" alt="Scholar" width="24">
+        </a>
+      </li>
+    {% endif %}
 
-<header>
-	<h1><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a></h1>
-</header>
- 
+    {% if site.social.orcid %}
+      <li>
+        <a href="{{ site.social.orcid }}" target="_blank">
+          <img src="{{ '/images/icons/orcid.png' | relative_url }}" alt="ORCID" width="24">
+        </a>
+      </li>
+    {% endif %}
+
+    {% if site.social.lattes %}
+      <li>
+        <a href="{{ site.social.lattes }}" target="_blank">
+          <img src="{{ '/images/icons/lattes.png' | relative_url }}" alt="Lattes" width="24">
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>
