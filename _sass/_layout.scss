@@ -71,16 +71,20 @@ aside {
 	border-bottom: 1px solid lighten($light, 30%);
 	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
 	nav {
-		float: left;
-		max-width: 800px;
-		margin: 0 auto;
+			display: flex;
+  			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+			max-width: 800px;
+			margin: 0 auto;
 		ul {
-			margin: 0;
-			padding: 0;
-			list-style: none;
+			display: flex;
+    		padding: 0;
+    		list-style: none;
+    		margin: 0;
 			li {
-				float: left;
 				position: relative;
+				margin-right: 1rem; // add spacing between items
 				a {
 					text-decoration: none;
 					display: block;
@@ -100,8 +104,8 @@ aside {
 		}
 		&:after {
 			content: '';
-			display: table;
-			clear: both;
+    		display: table;
+    		clear: both;
 		}
 	}
 }
