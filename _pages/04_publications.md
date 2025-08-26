@@ -7,7 +7,7 @@ permalink: /publications/
 ## Published
 
 1. Morais L.A., Weinhold T., de Almeida M.P., Lita A., Gerrits T., Nam S.W., White A.G., and Gillett G. 
-[Precisely determining photon-number in real-time](https://quantum-journal.org/papers/q-2024-05-23-1355/), (2023).
+[Precisely determining photon-number in real-time](https://quantum-journal.org/papers/q-2024-05-23-1355/), _Quantum_, __8__, 1355 (2024).
 
 2. Loreto R.P., Morais L.A., de Araujo C.I., Moura-Melo W.A., Pereira A.R., Silva R.C., Nascimento F.S., and Mól L.A. 
 [Emergence and mobility of monopoles in a unidirectional arrangement of magnetic nanoislands,](https://iopscience.iop.org/article/10.1088/0957-4484/26/29/295303/meta)
