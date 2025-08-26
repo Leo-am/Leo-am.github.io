@@ -124,3 +124,13 @@ footer {
 	text-align: center;
 	padding: 40px;
 }
+
+.news-heading {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: $main; // or use a custom color like #2bc4ad
+  border-bottom: 2px solid lighten($main, 20%); // optional underline
+  padding-bottom: 0.3rem;
+}
