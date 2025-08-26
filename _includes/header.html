@@ -11,25 +11,22 @@
 
         <li class="social-icons">
           {% if site.social.github %}
-            <a href="{{ site.social.github }}" target="_blank">
+            <a href="{{ site.social.github }}" target="_blank" title="GitHub">
               <img src="{{ '/images/icons/github.svg' | relative_url }}" alt="GitHub" width="24">
             </a>
           {% endif %}
-
           {% if site.social.scholar %}
-            <a href="{{ site.social.scholar }}" target="_blank">
+            <a href="{{ site.social.scholar }}" target="_blank" title="Google Scholar">
               <img src="{{ '/images/icons/scholar.svg' | relative_url }}" alt="Scholar" width="24">
             </a>
           {% endif %}
-
           {% if site.social.orcid %}
-            <a href="{{ site.social.orcid }}" target="_blank">
+            <a href="{{ site.social.orcid }}" target="_blank" title="ORCID">
               <img src="{{ '/images/icons/orcid.png' | relative_url }}" alt="ORCID" width="24">
             </a>
           {% endif %}
-
           {% if site.social.lattes %}
-            <a href="{{ site.social.lattes }}" target="_blank">
+            <a href="{{ site.social.lattes }}" target="_blank" title="Lattes">
               <img src="{{ '/images/icons/lattes.png' | relative_url }}" alt="Lattes" width="24">
             </a>
           {% endif %}
@@ -38,6 +35,8 @@
     </nav>
   </div>
 </aside>
+
+
 
 <header>
   <h1><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a></h1>

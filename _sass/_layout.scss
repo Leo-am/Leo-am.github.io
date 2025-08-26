@@ -87,39 +87,56 @@ aside {
     justify-content: center;
     align-items: center;
 
-    .nav-bar {
-      display: flex;
-      align-items: center;
-      list-style: none;
-      padding: 0;
-      margin: 0;
+    .nav-bar .nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; // Pushes left + right apart
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 
-      li {
-        margin-right: 1rem;
+  // Left side items (pages)
+  li:not(.social-icons) {
+    margin-right: 1rem;
 
-         a {
-            display: block;
-            padding: 12px;
-            text-decoration: none;
-            font-family: 'Muli', sans-serif;
-            }
-          }
+    a {
+      display: block;
+      padding: 12px;
+      text-decoration: none;
+    }
 
-          li.social-icons {
-            display: flex;
-            margin-right: 0; // no extra spacing
-            gap: 0; // remove spacing between icons
+    a:hover {
+      color: #2bb2a3; // light blue/greenish on hover
+    }
+  }
 
-            a {
-              padding: 0 4px;
-              line-height: 1;
+  // Right-aligned icons
+  .social-icons {
+    margin-left: auto; // Pushes icons to the far right
+    display: flex;
+    align-items: center;
+    gap: 8px;
 
-              img {
-                display: block;
-          }
-        }
+    a {
+      display: inline-block;
+      padding: 6px;
+      transition: all 0.2s ease-in-out;
+
+      img {
+        display: block;
+        width: 24px;
+        height: 24px;
+        transition: filter 0.2s ease;
+      }
+
+      &:hover img {
+        filter: brightness(0) saturate(100%) invert(47%) sepia(28%) saturate(588%) hue-rotate(120deg) brightness(95%) contrast(85%);
+        // 💡 Adjust for light blue/greenish tint
       }
     }
+  }
+}
   }
 }
 
