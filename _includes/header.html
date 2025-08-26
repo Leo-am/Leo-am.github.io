@@ -9,37 +9,31 @@
         {% endfor %}
         <li><a href="{{ "/blog" | relative_url }}">Blog</a></li>
 
-        {% if site.social.github %}
-          <li>
+        <li class="social-icons">
+          {% if site.social.github %}
             <a href="{{ site.social.github }}" target="_blank">
               <img src="{{ '/images/icons/github.svg' | relative_url }}" alt="GitHub" width="24">
             </a>
-          </li>
-        {% endif %}
+          {% endif %}
 
-        {% if site.social.scholar %}
-          <li>
+          {% if site.social.scholar %}
             <a href="{{ site.social.scholar }}" target="_blank">
               <img src="{{ '/images/icons/scholar.svg' | relative_url }}" alt="Scholar" width="24">
             </a>
-          </li>
-        {% endif %}
+          {% endif %}
 
-        {% if site.social.orcid %}
-          <li>
+          {% if site.social.orcid %}
             <a href="{{ site.social.orcid }}" target="_blank">
               <img src="{{ '/images/icons/orcid.png' | relative_url }}" alt="ORCID" width="24">
             </a>
-          </li>
-        {% endif %}
+          {% endif %}
 
-        {% if site.social.lattes %}
-          <li>
+          {% if site.social.lattes %}
             <a href="{{ site.social.lattes }}" target="_blank">
               <img src="{{ '/images/icons/lattes.png' | relative_url }}" alt="Lattes" width="24">
             </a>
-          </li>
-        {% endif %}
+          {% endif %}
+        </li>
       </ul>
     </nav>
   </div>
