@@ -1,36 +1,44 @@
 <aside>
   <div class="container">
-    <nav>
-      <ul class="nav-bar">
+    <nav class="nav-bar">
+      <ul class="nav-items">
         {% for page in site.pages %}
           {% if page.title and page.hidden != true %}
             <li><a href="{{ page.url }}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
         <li><a href="{{ "/blog" | relative_url }}">Blog</a></li>
+      </ul>
 
-        <li class="social-icons">
-          {% if site.social.github %}
+      <ul class="social-icons">
+        {% if site.social.github %}
+          <li>
             <a href="{{ site.social.github }}" target="_blank" title="GitHub">
               <img src="{{ '/images/icons/github.svg' | relative_url }}" alt="GitHub" width="24">
             </a>
-          {% endif %}
-          {% if site.social.scholar %}
+          </li>
+        {% endif %}
+        {% if site.social.scholar %}
+          <li>
             <a href="{{ site.social.scholar }}" target="_blank" title="Google Scholar">
               <img src="{{ '/images/icons/scholar.svg' | relative_url }}" alt="Scholar" width="24">
             </a>
-          {% endif %}
-          {% if site.social.orcid %}
+          </li>
+        {% endif %}
+        {% if site.social.orcid %}
+          <li>
             <a href="{{ site.social.orcid }}" target="_blank" title="ORCID">
               <img src="{{ '/images/icons/orcid.png' | relative_url }}" alt="ORCID" width="24">
             </a>
-          {% endif %}
-          {% if site.social.lattes %}
+          </li>
+        {% endif %}
+        {% if site.social.lattes %}
+          <li>
             <a href="{{ site.social.lattes }}" target="_blank" title="Lattes">
               <img src="{{ '/images/icons/lattes.png' | relative_url }}" alt="Lattes" width="24">
             </a>
-          {% endif %}
-        </li>
+          </li>
+        {% endif %}
       </ul>
     </nav>
   </div>

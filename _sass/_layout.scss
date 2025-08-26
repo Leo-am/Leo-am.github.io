@@ -87,59 +87,43 @@ aside {
     justify-content: center;
     align-items: center;
 
-    .nav-bar .nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; // Pushes left + right apart
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: nowrap;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
 
-  // Left side items (pages)
-  li:not(.social-icons) {
-    margin-right: 1rem;
+    .nav-items,
+    .social-icons {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
 
-    a {
+    .nav-items li,
+    .social-icons li {
+      margin-right: 1rem;
+    }
+
+    .nav-items li a,
+    .social-icons li a {
       display: block;
       padding: 12px;
       text-decoration: none;
     }
 
-    a:hover {
-      color: #2bb2a3; // light blue/greenish on hover
-    }
-  }
-
-  // Right-aligned icons
-  .social-icons {
-    margin-left: auto; // Pushes icons to the far right
-    display: flex;
-    align-items: center;
-    gap: 8px;
-
-    a {
-      display: inline-block;
-      padding: 6px;
-      transition: all 0.2s ease-in-out;
-
-      img {
-        display: block;
-        width: 24px;
-        height: 24px;
-        transition: filter 0.2s ease;
-      }
-
-      &:hover img {
-        filter: brightness(0) saturate(100%) invert(47%) sepia(28%) saturate(588%) hue-rotate(120deg) brightness(95%) contrast(85%);
-        // 💡 Adjust for light blue/greenish tint
-      }
+    .social-icons li a:hover img {
+      filter: brightness(0) saturate(100%) invert(47%) sepia(28%) saturate(588%) hue-rotate(120deg) brightness(95%) contrast(85%);
+      transition: 0.2s ease;
     }
   }
 }
-  }
-}
-
 
 footer {
 	text-align: center;
