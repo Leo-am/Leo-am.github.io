@@ -13,16 +13,16 @@ permalink: /projects/
 ### 1. Experimental Quantum Clock
 
 
-- __What?__ <br>
-- __My Role:__ <br>
-- __With?__ This project was supervised by Prof. Gerard Milburn and Prof. Arkady Fedorov. Also collaborated in this project Stefan Zeppetzauer, and Xin He. <br>
+- __What?__ Experimental realisation of the theoretical quantum clock proposal. <br>
+- __My Role:__ I was responsible for the theoretical analysis and the 'translation' of the theoretical proposal to the experimental realisation. <br>
+- __With?__ Dr. Stefan Zeppetzauer was the main responsible for this project. This project was supervised by Prof. Gerard Milburn and Prof. Arkady Fedorov. Also collaborated Dr. Xin He.<br>
 - __Where?__ The University of Queensland - Brisbane, Australia <br>
 -__This research was supported by:__ Programa Doutorado Pleno no Exterior (DPE) 88881.128437/2016-01 da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Australian Research Council Centre of Excellence for Engineered Quantum Systems (EQUS), and Foundational Questions Institute Fund (FQXi).
 
-### 2. Theoretical Quantum Clock
+### 2. Reducing the Noise of a Quantum Clock using Coherent Feedback
 
-- __What?__ <br>
-- __My Role:__ <br>
+- __What?__ What was the effect of the noise when we are measuring time? What are the ultimate limits of precision when it comes to time measurement? What is the minimum amount of noise one can introduce in a clock system? With these questions in mind... <br>
+- __My Role:__ I was the main responsible to execute the project. Simulations were done using Mathematica (where solving partial differential equations was required) and QuTiP (Quantum Toolbox in Python) for solving stochastic differential equations. The results are available on chapters 6 and 7 of my PhD thesis. <br>
 - __With?__ This project was supervised by Prof. Gerard Milburn. <br>
 - __Where?__ The University of Queensland - Brisbane, Australia <br>
 - __This research was supported by:__ Programa Doutorado Pleno no Exterior (DPE) 88881.128437/2016-01 da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES), Australian Research Council Centre of Excellence for Engineered Quantum Systems (EQUS), and and Foundational Questions Institute Fund (FQXi).
@@ -37,8 +37,8 @@ permalink: /projects/
 
 ### 4. Weak Measurements and the Double-Slit Experiment
 
-- __What?__ Proposed by Aharonov, Albert, and Vaidman the weak measurement protocol is a quantum measurement protocol that gives a weak value as the measurement result. This protocol allows the study of the interaction between the classic measurement instrument and the quantum system under analysis. This project goal was to understand the weak measurement protocol, studying its impacts in the quantum mechanics interpretations and its possible application, with special interest in the double-slit experiment. <br>
--    __My Role:__ Write a review on the weak measurement protocol and reproduce the results of Steinberg's group experiment using simulations on MATLAB. <br>
+- __What?__ Proposed by Aharonov, Albert, and Vaidman the weak measurement protocol is a quantum measurement protocol that gives a weak value as the measurement result. The protocol allows the study of the interaction between the measurement instrument (described as a classical system) and the quantum system. This project goal was to understand the weak measurement protocol, studying its impacts in the quantum mechanics interpretations and its applications, with special interest in the double-slit experiment. <br>
+-    __My Role:__ Write a review on the weak measurement protocol and reproduce the results of [Observing the Average Trajectories of Single Photons in a Two-Slit Interferometer](https://www.science.org/doi/10.1126/science.1202218) using simulations on MATLAB. <br>
 -    __With?__ This project was supervised by [Prof. Leonardo Teixeira Neves](http://lattes.cnpq.br/0525343899407081). <br>
 -    __Where?__ Universidade Federal de Minas Gerais (UFMG) - Belo Horizonte, Brazil <br>
 -    __This research was supported by:__ Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)<br>
