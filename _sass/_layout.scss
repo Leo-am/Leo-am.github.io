@@ -92,6 +92,18 @@ aside {
   width: 100%;
   padding: 0;
   margin: 0;
+  overflow-x: auto; // enables horizontal scrolling
+  -webkit-overflow-scrolling: touch; // smoother on mobile
+  scrollbar-width: none; // Firefox: hide scrollbar
+  -ms-overflow-style: none; // IE/Edge: hide scrollbar
+
+  &::-webkit-scrollbar {
+    display: none; // Chrome/Safari: hide scrollbar
+  }
+
+  li {
+    flex: 0 0 auto; // prevent shrinking and force horizontal layout
+  }
 }
 
 .nav-items,
@@ -149,4 +161,11 @@ footer {
 .news-date {
   font-weight: bold;
   color: #2bc4ad; // Same color as your icon highlights
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+  }
 }
