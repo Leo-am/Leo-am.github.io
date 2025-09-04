@@ -49,5 +49,6 @@
 </aside>
 
 <header>
-  <h1><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a></h1>
+  {% assign current_lang = page.lang | default: site.default_lang %}
+  <h1><a href="{{ '/' | append: current_lang | append: '/' | relative_url }}">{{ site.title }}</a></h1>
 </header>
