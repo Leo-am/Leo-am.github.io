@@ -1,4 +1,8 @@
 <div class="language-switcher">
-  <a href="/en/">English</a> |
-  <a href="/pt/">Português</a>
+  {% assign current_lang = page.lang | default: site.default_lang %}
+  {% for lang in site.languages %}
+    {% if lang != current_lang %}
+      <a href="{{ site.baseurl }}/{{ lang }}/">{{ site.data.translations[lang].label }}</a>
+    {% endif %}
+  {% endfor %}
 </div>
