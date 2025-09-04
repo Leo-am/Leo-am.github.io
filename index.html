@@ -1,40 +1,24 @@
 ---
 layout: default
+permalink: /
 ---
 
-
-<h2 class="news-heading">News</h2>
-
-<h3 class=""news-year"> 2025 </h3>
-
-<ul class="news-list">
-    <li><span class="news-date">12-08-2025:</span> First phase of the <a href="https://www1.fisica.org.br/~obfep/" target="_blank">Olimpíada Brasileira de Física das Escolas Públicas (OBFEP)</a> applied at IFF Bom Jesus!   </li>
-    <li><span class="news-date">01-08-2025:</span> After all the paperwork, we finally started the project "Exploring Quantum Computing with Simulations".
-    Welcome aboard, Lucas Menezes Fasolo! </li>  
-    <li><span class="news-date">11-07-2025:</span> <a href="https://selecoes.iff.edu.br/programas-e-projetos-institucionais/programas-e-projetos-de-extensao-e-pesquisa/reitoria/2025/processo_seletivo-3/comunicado-3" target="_blank">New ICJ/CNPq project approved!</a>
-      In "Between Waves and Particles: Principles of Quantum Physics at High School" we will study how to approach quantum physics themes at high school level! More information on this soon! </li>        
-    <li><span class="news-date">15-04-2025: </span> <a href="https://cdd.iff.edu.br/documentos/editais/bom-jesus-do-itabapoana/2025/abril/edital-6" target="_blank"> First project approved with FAPERJ!</a>
-    We will study quantum computing and develop ways to talk about this exciting field of physics to a high school audience. Stay tuned! </li>
-</ul>
-
-<h3 class=""news-year"> 2024 </h3>
-
-<ul class="news-list">
-    <li><span class="news-date">30/11/2024:</span> Our paper on our experimental realization of quantum clock using coherent feedback is on arXiV.
-    If you want to know more, drop me a message or check our full paper on <a href="https://arxiv.org/abs/2410.22926" target="_blank"> arXiV</a>! </li>
-
-  <li><span class="news-date">23/05/2024:</span> Published my first paper as first author. 
-    We characterised the performance of a photon detector with photon-number-resolving capabilities _in real time_!
-    If you want to know more, drop me a message or check our full paper in <a href="https://quantum-journal.org/papers/q-2024-05-23-1355/" target="_blank">Quantum</a>! </li>
-</ul>
-
-
-<h3 class=""news-year"> 2023 </h3>
-
-<ul class="news-list">
-  <li><span class="news-date">24/11/2024:</span> Oficially, Doctor in Physics by The University of Queensland (Australia)!
-    Many thanks to my supervisors, <a href="https://quantum.info" target="_blank">Prof. Andrew White</a> and Dr. Marcelo Almeida! As Andrew says, it's been a blast! </li>
-  <li><span class="news-date">29/06/2023:</span> First day as a lecturer at Instituto Federal Fluminense Campus Bom Jesus do Itabapoana (RJ, Brazil). 
-    Excited to start my new position! </li>
-</ul>
-
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+  <body>
+    <script>
+      (function () {
+        const lang = navigator.language || navigator.userLanguage;
+        if (lang.startsWith('pt')) {
+          window.location.replace('/pt/');
+        } else {
+          window.location.replace('/en/');
+        }
+      })();
+    </script>
+    <noscript>
+      <p>Please enable JavaScript to view the site properly.</p>
+    </noscript>
+  </body>
+</html>
