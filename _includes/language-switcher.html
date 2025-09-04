@@ -1,8 +1,8 @@
 <div class="language-switcher">
-  {% assign current_lang = page.lang | default: site.default_lang %}
-  {% for lang in site.languages %}
-    {% if lang != current_lang %}
-      <a href="{{ site.baseurl }}/{{ lang }}/">{{ site.data.translations[lang].label }}</a>
-    {% endif %}
-  {% endfor %}
+  <a href="{{ site.baseurl }}/en/" title="English">
+    <img src="{{ '/images/icons/en.png' | relative_url }}" alt="English" width="24" height="24">
+  </a>
+  <a href="{{ site.baseurl }}/pt/" title="Português">
+    <img src="{{ '/images/icons/pt.png' | relative_url }}" alt="Português" width="24" height="24">
+  </a>
 </div>
