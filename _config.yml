@@ -14,6 +14,9 @@ include: ['_pages']
 kramdown:
   input: GFM
 
+languages: ["en", "pt"]
+default_lang: "en"
+
 social:
   github: https://github.com/Leo-am
   scholar: https://scholar.google.com.au/citations?user=sQk70PoAAAAJ&hl
