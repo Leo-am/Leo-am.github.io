@@ -1,13 +1,13 @@
 <aside>
   <div class="container">
-    <nav class="nav-bar">
+    <nav class="nav-bar"> <!-- ✅ Add this wrapper -->
       <ul class="nav-items">
+        {% assign current_lang = page.lang | default: site.default_lang %}
         {% for page in site.pages %}
-          {% if page.title and page.hidden != true %}
-            <li><a href="{{ page.url }}">{{ page.title }}</a></li>
+          {% if page.title and page.lang == current_lang and page.hidden != true %}
+            <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
           {% endif %}
         {% endfor %}
-        <li><a href="{{ "/blog" | relative_url }}">Blog</a></li>
       </ul>
 
       <ul class="social-icons">
@@ -40,12 +40,15 @@
           </li>
         {% endif %}
       </ul>
+
+      <div class="language-switcher">
+        {% include language-switcher.html %}
+      </div>
     </nav>
   </div>
 </aside>
 
-
-
 <header>
-  <h1><a href="{{ site.url }}{{ site.baseurl }}">{{ site.title }}</a></h1>
+  {% assign current_lang = page.lang | default: site.default_lang %}
+  <h1><a href="{{ '/' | append: current_lang | append: '/' | relative_url }}">{{ site.title }}</a></h1>
 </header>

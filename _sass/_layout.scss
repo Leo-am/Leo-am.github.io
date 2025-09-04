@@ -104,6 +104,22 @@ aside {
   li {
     flex: 0 0 auto; // prevent shrinking and force horizontal layout
   }
+
+    .language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-left: 1rem;
+
+    a img {
+      border-radius: 3px;
+      transition: transform 0.2s ease;
+    }
+
+    a:hover img {
+      transform: scale(1.1);
+    }
+  }
 }
 
 .nav-items,

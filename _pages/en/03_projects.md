@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+permalink: en/projects/
+lang: en
 ---
 
 ## Past Projects

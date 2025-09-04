@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Publications
-permalink: /publications/
+title: Publicações
+permalink: /pt/publicacoes
+lang: pt
 ---
 
-## Published
+## Publicados
 
 1. Morais L.A., Weinhold T., de Almeida M.P., Lita A., Gerrits T., Nam S.W., White A.G., and Gillett G. 
 [Precisely determining photon-number in real-time](https://quantum-journal.org/papers/q-2024-05-23-1355/), _Quantum_, __8__, 1355 (2024).
@@ -18,7 +19,7 @@ _Nanotechnology_, __26__, 295303 (2015)
 [Using coherent feedback for a periodic clock](https://arxiv.org/abs/2410.22926), arXiv:2410.22926 (2024).
 
 
-## Conferences
+## Conferências
 
 1. Morais L.A., de Almeida M.P., Gillett G., White A.G. 
 [Revealing the number of single photons in real time](https://opg.optica.org/abstract.cfm?uri=FiO-2019-JTu4A.42)
