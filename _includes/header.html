@@ -1,13 +1,13 @@
 <aside>
   <div class="container">
     <ul class="nav-items">
-      {% assign current_lang = page.lang | default: "en" %}
-      {% for nav_page in site.pages %}
-        {% if nav_page.title and nav_page.hidden != true and nav_page.lang == current_lang %}
-          <li><a href="{{ nav_page.url | relative_url }}">{{ nav_page.title }}</a></li>
+      {% assign current_lang = page.lang | default: site.default_lang %}
+      {% for page in site.pages %}
+        {% if page.title and page.lang == current_lang and page.hidden != true %}
+          <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
         {% endif %}
       {% endfor %}
-      <li><a href="{{ "/blog" | relative_url }}">Blog</a></li>
+      <li><a href="{{ "/" | append: current_lang | append: "/blog" | relative_url }}">Blog</a></li>
     </ul>
 
       <ul class="social-icons">
